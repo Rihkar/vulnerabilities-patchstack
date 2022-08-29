@@ -125,6 +125,9 @@
       </li>
     </ul>
   </div>
+  <router-link to="/CreateVulnerability"
+    ><button>Create new vulnerability</button></router-link
+  >
 </template>
 
 <script lang="ts">

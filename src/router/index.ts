@@ -10,6 +10,7 @@ import IdentificationAndAuthentificationFailures from "../views/IdentificationAn
 import SoftwareAndDataIntegrityFailures from "../views/SoftwareAndDataIntegrityFailures.vue";
 import SecurityLoggingAndMonitoringFailures from "../views/SecurityLoggingAndMonitoringFailures.vue";
 import ServerSideRequestForgery from "../views/ServerSideRequestForgery.vue";
+import CreateVulnerability from "../views/CreateVulnerability.vue";
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -66,6 +67,11 @@ const routes: Array<RouteRecordRaw> = [
     path: "/ServerSideRequestForgery",
     name: "ServerSideRequestForgery",
     component: ServerSideRequestForgery,
+  },
+  {
+    path: "/CreateVulnerability",
+    name: "CreateVulnerability",
+    component: CreateVulnerability,
   },
 ];
 
