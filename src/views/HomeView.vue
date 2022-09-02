@@ -54,5 +54,5 @@ import { useVulnerabilitiesStore } from "@/stores/vulnerabilitiesStore";
 const { vulnerability, changeVulnerabilityView, link } =
   useVulnerabilitiesStore();
 const infoBaseLink = "/detailed-vulnerability-info/";
-const editBaseLink = "/edit-vulnerability";
+const editBaseLink = "/edit-vulnerability/";
 </script>
