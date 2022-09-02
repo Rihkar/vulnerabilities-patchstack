@@ -1,14 +1,30 @@
-h1 {
-    margin: 0 auto;
-    width: fit-content;
-}
-
 a {
     text-decoration: none;
-    color: blue;
-&:hover{
-    text-decoration: underline;
 }
+
+.title {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #64403E;
+}
+
+.truncated-vulnerability-link {
+    color: #64403E;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.main-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 .vulnerability-list-box {
@@ -17,4 +33,71 @@ a {
     display: flex;
     flex-direction: column;
     gap: 15px;
+}
+
+.nav-bar {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #6C6061;
+}
+
+.single-nav {
+    display: flex;
+    border: 2px solid #838E83;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: normal;
+    align-items: center;
+    padding: 0px 3px;
+}
+
+.nav-link {
+    color: black;
+}
+
+html {
+    background-color: #B2BCAA;
+}
+
+.truncated-vulnerability {
+    background-color: #C9CEBD;
+    border-radius: 5px;
+}
+
+.btn-create-vulnerability {
+    background-color: #64403E;
+    border-color: #838E83;
+    font-weight: bold;
+    color: #C9CEBD;
+    border: 2px solid #C9CEBD;
+}
+
+.btn-back {
+    background-color: #64403E;
+    border-color: #838E83;
+    font-weight: bold;
+    color: #C9CEBD;
+    border: 2px solid #C9CEBD;
+}
+
+.btn-edit {
+    background-color: #838E83;
+    border: none;
+}
+
+.img-edit {
+    height: 10px;
+    width: 7px;
+    color: #C9CEBD;
+    background-color: #C9CEBD;
+}
+
+.edit-input {
+    background-color: #64403E;
+    width: 100%;
+    max-width: 800px;
+
 }
