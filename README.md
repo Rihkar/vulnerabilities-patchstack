@@ -19,5 +19,5 @@ Create a simple SPA application, using Vue.js or a JavaScript framework based on
 - Navigation bar does re-route and rerender from the home page but not from 'specific vulnerability with the full description' page
 - Editing list items is buggy. 
 - Creating vulnerability with list items is buggy
-
-
+# Link to the project:
+- vulnerability-list.surge.sh
