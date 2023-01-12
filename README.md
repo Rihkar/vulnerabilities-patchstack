@@ -20,4 +20,7 @@ Create a simple SPA application, using Vue.js or a JavaScript framework based on
 - Editing list items is buggy. 
 - Creating vulnerability with list items is buggy
 # Link to the project:
-- https://vulnerability-list.surge.sh/
+-  https://vulnerabilites-list.surge.sh/
+
+![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
