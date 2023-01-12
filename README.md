@@ -23,4 +23,8 @@ Create a simple SPA application, using Vue.js or a JavaScript framework based on
 -  https://vulnerabilites-list.surge.sh/
 
 ![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)
+
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+
+![vulnerabilities](https://user-images.githubusercontent.com/76056427/212067599-2c73b056-9876-48d4-8b00-c409765cccf8.gif)
+
